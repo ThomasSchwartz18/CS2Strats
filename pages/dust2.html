@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dust2 Strategies - Counter-Strike 2</title>
+    <link rel="stylesheet" href="../css/index.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Strategies</a>
+                <div class="dropdown-content">
+                    <a href="ancient.html">Ancient</a>
+                    <a href="anubis.html">Anubis</a>
+                    <a href="dust2.html">Dust 2</a>
+                    <a href="inferno.html">Inferno</a>
+                    <a href="mirage.html">Mirage</a>
+                    <a href="nuke.html">Nuke</a>
+                    <a href="vertigo.html">Vertigo</a>
+                    <a href="utility-usage.html">Utility Usage</a>
+                    <a href="practice-drills.html">Practice Drills</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- Dust2 Section -->
+    <section id="dust2">
+        <h2>Dust 2 Strategies</h2>
+        <div class="dust2-menu">
+            <button onclick="showSubPage('pistol-round')">Pistol Round</button>
+            <button onclick="showSubPage('anti-eco-round')">Anti-Eco Round</button>
+            <button onclick="showSubPage('force-buy-round')">Force Buy Round</button>
+            <button onclick="showSubPage('full-buy-round')">Full Buy Round</button>
+        </div>
+
+        <!-- Subpages for Dust2 Strategies -->
+        <div id="pistol-round" class="dust2-subpage hidden">
+            <h3>Pistol Round</h3>
+            <p>The key to success is communication, coordination, and adapting based on the enemy team's tendencies and your own team's strengths.</p>
+            <button href="#" onclick="showSidePage('pistol-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('pistol-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="anti-eco-round" class="dust2-subpage hidden">
+            <h3>Anti-Eco Round</h3>
+            <p> You’re playing against opponents who likely have little to no armor and weaker weapons, such as pistols or SMGs. 
+                The primary goal is to minimize risk, maintain your economy, and avoid giving away any weapons to the enemy.
+            </p>
+            <button href="#" onclick="showSidePage('anti-eco-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('anti-eco-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="force-buy-round" class="dust2-subpage hidden">
+            <h3>Force Buy Round</h3>
+            <p>Force buys are rounds where your team spends most of its remaining money on weapons, armor, and utility, despite not having enough for a full buy. 
+                The goal in a force buy is to make the most of what you have and try to secure a round win or at least do economic damage to the enemy.
+            </p>
+            <button href="#" onclick="showSidePage('force-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('force-buy-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="full-buy-round" class="dust2-subpage hidden">
+            <h3>Full Buy Round</h3>
+            <p>Full buy rounds are where both teams are fully equipped with rifles (usually AK-47s for Ts and M4s for CTs), full armor, and utility (smokes, flashes, molotovs, and HE grenades). 
+                These rounds are often the most tactical and crucial in a match, as both teams have all the resources needed to execute complex strategies.
+            </p>
+            <button href="#" onclick="showSidePage('full-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('full-buy-ct-side')">CT_Side</button>
+        </div>
+
+        <!-- T_Side and CT_Side Pages -->
+        <div id="pistol-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('pistol-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('pistol-ct-side')">CT_Side</button>
+            <h4>Pistol Round - T_Side</h4>
+            
+            <h5>Fast A Long Push</h5>
+            <p><strong>Objective:</strong> Overwhelm the A long defense with numbers.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush A long from T spawn.</li>
+                <li>Use flashbangs to blind any CTs peeking from pit or corner.</li>
+                <li>If you win the long fight, immediately push up long towards A site.</li>
+                <li>Smoke off CT spawn, or have a player watch it while the rest push up ramp and plant for long.</li>
+                <li>After planting, fall back to long or hold post-plant positions on site and ramp.</li>
+            </ul>
+            <p><strong>Why it works:</strong> On pistol rounds, it's common for CTs to play only one or two players on A long. Rushing with all five can quickly overwhelm them, especially with well-timed flashes.</p>
+        
+            <h5>Split A (Catwalk and Long)</h5>
+            <p><strong>Objective:</strong> Divide the CTs' attention and split the A site from two directions.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players up catwalk (short) and two players towards A long.</li>
+                <li>The catwalk players should use a smoke to cover cross to A site and flash over as they push up.</li>
+                <li>The long players should push simultaneously, using flashes to blind any CTs holding pit or ramp.</li>
+                <li>This pincer attack from both catwalk and long can overwhelm the CTs holding A site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting the A site divides the CTs' focus, making it harder for them to defend effectively.</p>
+        
+            <h5>Mid to B Split</h5>
+            <p><strong>Objective:</strong> Take control of the B site by attacking it from mid and tunnels.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Have two players go through lower tunnels to B, and three players push mid.</li>
+                <li>Smoke off CT spawn from mid to block vision, and use flashes to take control of mid.</li>
+                <li>The mid players should push through doors to B, while the tunnel players execute from the tunnels.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B site is usually held by one or two players, and splitting it from two angles makes it difficult for the CTs to defend effectively.</p>
+        
+            <h5>B Rush</h5>
+            <p><strong>Objective:</strong> Overwhelm the B site with speed.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush B tunnels.</li>
+                <li>Use flashbangs to blind any CTs peeking from B site or window.</li>
+                <li>Push into B quickly and overwhelm the defenders.</li>
+                <li>Plant the bomb and set up strong post-plant positions (site, tunnels, window).</li>
+            </ul>
+            <p><strong>Why it works:</strong> On pistol rounds, CTs often play 1-2 players on B. A fast rush can overwhelm them before they have time to rotate.</p>
+        
+            <h5>Decoy Fake</h5>
+            <p><strong>Objective:</strong> Fake an attack to draw rotations, then hit the opposite site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy decoys and throw them towards A long or B tunnels to mimic an aggressive push.</li>
+                <li>Immediately after throwing decoys, quietly regroup and execute on the opposite site.</li>
+                <li>The decoys can cause the CTs to over-rotate, leaving the site you're actually hitting under-defended.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Decoys can be used to trick the CTs into thinking you're rushing one site, allowing you to attack the other with fewer defenders.</p>
+        </div>
+
+        <div id="pistol-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('pistol-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('pistol-ct-side')">CT_Side</button>
+            <h4>Pistol Round - CT_Side</h4>
+        
+            <h5>Standard 2-1-2 Setup</h5>
+            <p><strong>Objective:</strong> Cover all areas of the map with balanced defense.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Two players hold A (one long, one short/catwalk).</li>
+                <li>One player anchors mid, ready to assist B or A.</li>
+                <li>Two players hold B (one site, one mid/CT).</li>
+                <li>The A long player should have a flash ready to support a push, while the catwalk player holds from car or ramp.</li>
+            </ul>
+            <p><strong>Why it works:</strong> This setup ensures coverage across the map and allows for quick rotations, depending on where the T-side attacks.</p>
+        
+            <h5>Aggressive Mid Control</h5>
+            <p><strong>Objective:</strong> Take control of mid to prevent a split or rush.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Two players push mid aggressively from CT spawn, with one holding from doors and the other from Xbox.</li>
+                <li>One player holds A long, and two players anchor B (with one ready to rotate mid).</li>
+                <li>Use flashes to blind T players peeking mid, and gain early control of the area.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling mid denies the T-side easy access to split A or B, and it allows for quick rotations to either site.</p>
+        
+            <h5>Heavy A Stack</h5>
+            <p><strong>Objective:</strong> Anticipate and counter an A push, especially long.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on A (two long, one short), with one player on mid and one on B.</li>
+                <li>The long players should aggressively take control of long with flashes and possibly a HE grenade.</li>
+                <li>The short player holds catwalk from ramp or site.</li>
+                <li>If long is secured, the mid player can rotate to A or assist B.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Pistol rounds often involve T-side pushes on long A. A heavy stack can catch them off guard and secure early kills.</p>
+        
+            <h5>B Stack</h5>
+            <p><strong>Objective:</strong> Anticipate and counter a B rush.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on B (two in site, one in tunnels), with one mid and one A.</li>
+                <li>Use smokes and flashes to delay any rush and force the Ts into a tough entry.</li>
+                <li>The tunnels player should play close and be ready to trade if necessary.</li>
+                <li>The mid player can assist B or rotate to A if the push comes from there.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B rushes are common on pistol rounds, and a well-timed stack can completely shut down the T-side’s plan.</p>
+        
+            <h5>Mid to B Stack</h5>
+            <p><strong>Objective:</strong> Be ready to counter a mid to B split or a B rush.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack two players in B and one player in mid, with two players holding A (one long, one short).</li>
+                <li>The mid player should be ready to drop into CT spawn to help B or rotate to A as needed.</li>
+                <li>If the T-side attempts a mid to B split, the mid player can hold them off long enough for the B players to secure the site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> This setup counters both B rushes and mid to B splits, which are common pistol round strategies for the T-side.</p>
+        </div>
+        
+        <div id="anti-eco-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('anti-eco-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('anti-eco-ct-side')">CT_Side</button>
+            <h4>Anti-Eco Round - T_Side</h4>
+            
+            <h5>Group and Push Together (A Long or B Rush)</h5>
+            <p><strong>Objective:</strong> Use superior firepower and numbers to overwhelm a single bombsite.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li><strong>A Long:</strong> All five players push A long together, using utility (flashbangs, smokes) to clear angles and force the CTs back. Once you’ve taken control of long, execute onto the A site with a smoke for CT spawn and a molotov for goose. Plant the bomb and hold post-plant positions from long and site/ramp.</li>
+                <li><strong>B Rush:</strong> Similar to A long, all five players rush B together through tunnels. Use flashbangs to blind any close CTs and quickly take control of the site. Smoke the doors and molotov window to secure the site and prevent a retake.</li>
+            </ul>
+            <p><strong>Why it works:</strong> By grouping up and pushing a site together, you reduce the chances of being picked off individually by pistols and ensure that your superior weapons can trade effectively.</p>
+        
+            <h5>Slow Play with Map Control</h5>
+            <p><strong>Objective:</strong> Take map control cautiously to avoid ambushes, then execute on the weaker site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players towards A long, one towards mid, and two towards B tunnels. Take control of key areas slowly, using utility to clear common hiding spots (e.g., pit, car, tunnels corners).</li>
+                <li>Once you’ve gathered enough information (e.g., how many players are defending each site), regroup and execute on the weaker site.</li>
+                <li>If the CTs stack one site, you can rotate to the other.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Slow play reduces the risk of walking into a stack or an ambush. It also allows you to gather information about the enemy's setup and adapt accordingly.</p>
+        
+            <h5>Mid to B Split</h5>
+            <p><strong>Objective:</strong> Divide the attention of the CTs by attacking from two directions.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Start with three players taking control of mid, while two players position themselves in B tunnels.</li>
+                <li>Smoke CT spawn from mid to cut off rotations, and flash through mid doors as you push into B.</li>
+                <li>The tunnel players should time their push with the mid players to hit B from two angles simultaneously.</li>
+                <li>After securing the site, set up post-plant positions in tunnels, site, and window/door.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting B divides the attention of any CTs holding the site, making it difficult for them to defend effectively, especially with weaker weapons.</p>
+        
+            <h5>Fake A, Hit B</h5>
+            <p><strong>Objective:</strong> Draw CTs away from B and create an easier entry onto the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players towards A long with the intention of making noise and throwing utility to fake an A push.</li>
+                <li>The other two players wait near B tunnels.</li>
+                <li>After the A players throw their utility (smokes, flashes), they fall back, and the entire team regroups to hit B.</li>
+                <li>Execute quickly onto B before the CTs can rotate back.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A well-executed fake can cause the CTs to over-rotate, leaving B under-defended.</p>
+        
+            <h5>Anti-Stack Play</h5>
+            <p><strong>Objective:</strong> Avoid potential CT stacks and maintain a strong economy.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Spread out across the map and play cautiously, probing for information.</li>
+                <li>Use utility to clear common stack spots (e.g., car on A long, B tunnels).</li>
+                <li>If you detect a stack, rotate quickly to the other site or play for picks.</li>
+                <li>Once you’ve confirmed where the stack is not, execute onto the empty site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> By avoiding a stack, you minimize the risk of losing multiple players to a pistol eco and ensure you maintain a strong economy for future rounds.</p>
+        </div>
+
+        <div id="anti-eco-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('anti-eco-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('anti-eco-ct-side')">CT_Side</button>     
+            <h4>Anti-Eco Round - CT_Side</h4>
+        
+            <h5>Standard 2-1-2 Setup</h5>
+            <p><strong>Objective:</strong> Maintain control of the map while minimizing risk.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play a standard 2-1-2 setup with two players on A (one long, one short), one on mid, and two on B.</li>
+                <li>Play passively, holding angles from a distance where your rifles or SMGs have an advantage over pistols.</li>
+                <li>Use utility to delay any pushes and allow your team to rotate if necessary.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A standard setup gives you good map control while avoiding the risk of over-extending into pistols that could catch you off guard.</p>
+        
+            <h5>Aggressive Long Control</h5>
+            <p><strong>Objective:</strong> Secure A long early and maintain map control.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players to A long with utility to secure control of the area (flashes, molotovs for car and pit).</li>
+                <li>Once long is secured, leave one player to hold it while the other two rotate back to A site or mid.</li>
+                <li>The other players hold mid and B passively.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Securing A long gives you a strong defensive position and allows you to control one of the main entry points to the A site.</p>
+        
+            <h5>Mid Control and B Stack</h5>
+            <p><strong>Objective:</strong> Deny mid control and reinforce B against potential rushes.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players around mid and B (two on B site, one on mid), with the other two players on A (one long, one short).</li>
+                <li>The mid player can float between mid and B, supporting wherever necessary.</li>
+                <li>Use utility to delay or stop any mid to B splits or straight B rushes.</li>
+            </ul>
+            <p><strong>Why it works:</strong> This setup counters potential B rushes and mid to B splits, which are common in eco rounds.</p>
+        
+            <h5>A Stack with Fast Rotations</h5>
+            <p><strong>Objective:</strong> Anticipate an A hit and rotate quickly if necessary.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on A (two long, one short) and two players on B.</li>
+                <li>The long players aggressively take control of long, while the short player holds catwalk or site.</li>
+                <li>The B players hold passively, ready to rotate to A or mid if needed.</li>
+            </ul>
+            <p><strong>Why it works:</strong> By stacking A and controlling long, you can effectively shut down an A push and rotate quickly if the Ts decide to hit B instead.</p>
+        
+            <h5>Push Tunnels or A Long for Early Information</h5>
+            <p><strong>Objective:</strong> Gain early map control and information about the T setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Push two players into B tunnels or A long early in the round to gather information.</li>
+                <li>If you encounter Ts, fall back and call for rotations.</li>
+                <li>If the area is clear, you can push further to gain map control or even flank.</li>
+                <li>Use the information gathered to adjust your defensive positions accordingly.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Gaining early information allows you to adjust your defense and potentially catch the Ts off guard.</p>
+        </div>
+        
+        <div id="force-buy-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('force-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('force-buy-ct-side')">CT_Side</button>
+            <h4>Force Buy Round - T_Side</h4>
+            
+            <h5>B Rush with Tech-9s/MAC-10s</h5>
+            <p><strong>Objective:</strong> Use close-range weapons to overwhelm the B site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush B tunnels with Tech-9s, MAC-10s, or shotguns.</li>
+                <li>Use flashbangs to blind any CTs holding B and push aggressively.</li>
+                <li>Once you secure the site, smoke doors and molotov window to prevent a quick retake.</li>
+                <li>Plant the bomb and set up close-range post-plant positions in tunnels, behind boxes, and on site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B site on Dust 2 is tight and close-quartered, making it ideal for weapons like the Tech-9 or MAC-10. A fast rush can catch the CTs off guard and overwhelm the defenders before they can react.</p>
+        
+            <h5>A Long Control with Utility</h5>
+            <p><strong>Objective:</strong> Take control of A long to open up the map.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols (Deagles, P250s) and some utility (smokes, flashes).</li>
+                <li>Send three players to A long with a couple of flashbangs, while two players hold mid or short for any potential flanks.</li>
+                <li>Use the flashes to take long control and push out any CTs holding pit or car.</li>
+                <li>Once you have long control, decide whether to commit to an A push or rotate back to mid and catwalk for a split.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A long is a key part of the map, and controlling it can force the CTs to rotate and adjust their positions. This gives you more options for executing onto a site.</p>
+        
+            <h5>Mid to B Split</h5>
+            <p><strong>Objective:</strong> Divide the CTs' attention and take B site by surprise.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy Deagles or Scouts and send two players to B tunnels and three to mid.</li>
+                <li>Smoke CT spawn from mid and use flashes to gain control of mid.</li>
+                <li>The mid players push through doors into B, while the tunnel players execute onto the site simultaneously.</li>
+                <li>Focus on trading kills and getting the bomb down.</li>
+            </ul>
+            <p><strong>Why it works:</strong> The mid to B split divides the attention of the CTs and can overwhelm the B defenders, especially if they’re not expecting a fast-paced attack.</p>
+        
+            <h5>Catwalk Push with Utility</h5>
+            <p><strong>Objective:</strong> Push up catwalk to A site with utility support.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols (preferably Deagles) and utility (smokes, flashes).</li>
+                <li>Send all five players up catwalk, using a smoke to cover the cross and flashes to blind any CTs holding A site or short.</li>
+                <li>Once on site, plant the bomb and set up crossfires and close-range positions.</li>
+                <li>Post-plant, play around the bomb and use any remaining utility to delay the CTs' retake.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Pushing catwalk allows you to engage in medium-range fights where the Deagle excels. Additionally, smokes and flashes can help you safely cross and plant the bomb.</p>
+        
+            <h5>Fake B, Hit A</h5>
+            <p><strong>Objective:</strong> Draw CTs away from A and hit it with force.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players with SMGs or pistols towards B tunnels to make noise and throw some utility, simulating a B rush.</li>
+                <li>The other three players wait near mid or A long.</li>
+                <li>After the fake is sold, the B players fall back or die trying to create space, while the remaining three push up catwalk or long to hit A.</li>
+                <li>Execute onto A with smokes and flashes, and plant the bomb.</li>
+            </ul>
+            <p><strong>Why it works:</strong> The fake can cause CTs to rotate off A, leaving it more vulnerable to a force buy push.</p>
+        </div>
+        
+        <div id="force-buy-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('force-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('force-buy-ct-side')">CT_Side</button>
+            <h4>Force Buy Round - CT_Side</h4>
+            
+            <h5>Aggressive A Long Push</h5>
+            <p><strong>Objective:</strong> Surprise the Ts with an aggressive push on A long.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols (Deagles, Five-Sevens) and some utility (flashes, smokes).</li>
+                <li>Send three players to A long with a flashbang to push aggressively and take control.</li>
+                <li>One player holds pit, while the other two push up or hold defensive angles.</li>
+                <li>The remaining two players hold mid and B passively.</li>
+            </ul>
+            <p><strong>Why it works:</strong> An aggressive push can catch the Ts off guard, especially if they’re not expecting CTs to contest long so heavily.</p>
+        
+            <h5>Mid and Short Control</h5>
+            <p><strong>Objective:</strong> Control mid and short to deny T-side access to A.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy Deagles or Scouts and send two players to hold mid and catwalk.</li>
+                <li>The mid player can hold from behind the doors, while the short player holds from cat or near the boxes.</li>
+                <li>Use utility to slow down any T-side push and force them to fight at long range.</li>
+                <li>The other three players can hold A long and B more passively.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling mid and short denies the Ts easy access to A site and forces them to commit to a fight or rotate.</p>
+        
+            <h5>B Stack</h5>
+            <p><strong>Objective:</strong> Anticipate a B rush and shut it down with a stack.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three or four players on B with pistols and utility.</li>
+                <li>Play close angles, such as behind the big box, window, and car.</li>
+                <li>Use smokes to delay any push and flashbangs to blind the Ts as they enter.</li>
+                <li>The remaining player(s) can hold mid or A long to gather information.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B rushes are common in force buys, and stacking the site with a well-timed crossfire can shut down the T-side push.</p>
+        
+            <h5>Aggressive Mid Push</h5>
+            <p><strong>Objective:</strong> Gain control of mid and possibly get early picks.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols or SMGs and send two or three players to push mid aggressively, either through doors or lower tunnels.</li>
+                <li>Use flashes to blind any Ts holding mid or top mid.</li>
+                <li>After securing mid control, the players can fall back to safer positions or continue to flank and disrupt the T-side's plans.</li>
+            </ul>
+            <p><strong>Why it works:</strong> An aggressive mid push can catch the Ts off guard, and securing mid control gives you a lot of flexibility in terms of rotations and potential flanks.</p>
+        
+            <h5>A Site Stack</h5>
+            <p><strong>Objective:</strong> Anticipate an A push and overwhelm the Ts with numbers.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three or four players on A site, with two players holding long and the others holding catwalk or on site.</li>
+                <li>Use smokes to block vision and flashbangs to blind any Ts pushing long or cat.</li>
+                <li>Hold close angles where pistols can be most effective.</li>
+            </ul>
+            <p><strong>Why it works:</strong> If the Ts commit to an A push, your stack can overwhelm them, especially with pistols at close range.</p>
+        </div>
+
+        <div id="full-buy-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('full-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('full-buy-ct-side')">CT_Side</button>
+            <h4>Full Buy Round - T_Side Strategies</h4>
+            
+            <h5>Default Spread</h5>
+            <p><strong>Objective:</strong> Gain map control, gather information, and adapt based on the CT setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to A long, one to mid, and two to B tunnels.</li>
+                <li>The A long players should carefully take control of long with utility, while the mid player looks for any aggression from the CTs.</li>
+                <li>The B tunnel players should control tunnels and look for any pushes from the CTs.</li>
+                <li>After gathering information, the team can decide to execute on A, B, or mid, depending on where the CTs are weakest.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A default spread allows you to take control of key areas of the map while being flexible enough to react to the CT’s movements.</p>
+        
+            <h5>Mid to B Split</h5>
+            <p><strong>Objective:</strong> Split the B site from two directions, overwhelming the defenders.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Start with two players in B tunnels and three players taking control of mid.</li>
+                <li>Smoke CT spawn to block off rotations and use flashes to push through mid doors.</li>
+                <li>The mid players push through to B from mid doors, while the tunnel players execute onto the site simultaneously.</li>
+                <li>Focus on trading kills and securing the B site.</li>
+                <li>Once the bomb is planted, set up strong post-plant positions in tunnels, site, and window/door.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting B divides the attention of the CTs, making it harder for them to defend against a coordinated push from two directions.</p>
+        
+            <h5>Catwalk Execute</h5>
+            <p><strong>Objective:</strong> Take control of catwalk and execute onto A site with utility.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send four players up catwalk and one player to hold mid or lurk A long.</li>
+                <li>Use a smoke to cover the CT spawn and flash over catwalk to blind any CTs holding A site or short.</li>
+                <li>As you push up catwalk, use molotovs to clear common positions (e.g., goose, ramp) and smokes to block off CT spawn and deep site.</li>
+                <li>Plant the bomb and set up post-plant positions on catwalk, site, and long if possible.</li>
+                <li>The mid player can apply pressure or assist by holding rotations through CT spawn or mid.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A well-executed catwalk push can overwhelm the A defenders, especially with good utility usage to cover the cross and clear positions.</p>
+        
+            <h5>A Long Control into A Split</h5>
+            <p><strong>Objective:</strong> Take control of A long and split the A site with players coming from catwalk.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players to A long and two to catwalk.</li>
+                <li>The long players should use utility (flashes, smokes) to take control of long, pushing any CTs back to site or CT spawn.</li>
+                <li>Once you have long control, the catwalk players push up and execute onto A with the long players.</li>
+                <li>Smoke off CT spawn and use molotovs to clear common positions (goose, site).</li>
+                <li>Plant the bomb and set up crossfires between long and catwalk.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting the A site from long and catwalk forces the CTs to defend from multiple angles, making it difficult for them to hold the site effectively.</p>
+        
+            <h5>B Rush</h5>
+            <p><strong>Objective:</strong> Overwhelm the B site with speed and numbers.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush B tunnels with full utility (smokes, flashes, molotovs).</li>
+                <li>Use flashbangs to blind any CTs holding B and push aggressively onto the site.</li>
+                <li>Smoke the doors and molotov window to secure the site and prevent a quick retake.</li>
+                <li>Once the site is secured, plant the bomb and set up post-plant positions in tunnels, on site, and window/door.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A fast B rush with proper utility can catch the B defenders off guard and secure the site before the CTs have time to rotate.</p>
+        </div>
+        
+        <div id="full-buy-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('full-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('full-buy-ct-side')">CT_Side</button>
+            <h4>Full Buy Round - CT_Side Strategies</h4>
+            
+            <h5>Standard 2-1-2 Setup</h5>
+            <p><strong>Objective:</strong> Maintain balanced control of the map with the ability to quickly rotate.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play two players on A (one long, one short), one player on mid, and two players on B.</li>
+                <li>The A long player can start with a deep smoke or flash to take long control, while the short player holds from ramp or site.</li>
+                <li>The mid player should hold mid doors, ready to rotate to B or A as needed.</li>
+                <li>The B players hold site and tunnels, using utility to delay any push and potentially peeking mid for information.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A standard setup allows for good map control and the ability to rotate quickly based on where the T-side decides to push.</p>
+        
+            <h5>Aggressive A Long Control</h5>
+            <p><strong>Objective:</strong> Take control of A long early and deny the T-side access to this key area.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two or three players to A long with utility (flashes, smokes) to contest long control.</li>
+                <li>One player holds pit or car, while the others push up to contest any T-side presence.</li>
+                <li>If you secure long, leave one player to hold it while the others rotate back to A site or mid.</li>
+                <li>The remaining players can hold mid and B passively, ready to rotate if needed.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling A long gives you a strong defensive position and denies the T-side a crucial entry point to the A site.</p>
+        
+            <h5>Mid and Catwalk Control</h5>
+            <p><strong>Objective:</strong> Deny the T-side control of mid and catwalk, forcing them into tougher engagements.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play one player aggressively on catwalk and one player holding mid.</li>
+                <li>The catwalk player can start with a molotov or smoke to block off the push and then hold from a safe position.</li>
+                <li>The mid player can hold from behind the doors or from window/CT to prevent any mid control.</li>
+                <li>The other three players hold A long and B site, ready to rotate based on the T-side's movement.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Denying mid and catwalk control forces the T-side to either commit to A long or attempt a difficult mid-to-B split.</p>
+        
+            <h5>B Stack with Mid Control</h5>
+            <p><strong>Objective:</strong> Anticipate a B push and reinforce the site while maintaining mid control.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play three players on B (one on site, one in tunnels, and one holding mid).</li>
+                <li>The mid player should focus on controlling mid and helping with any mid-to-B splits.</li>
+                <li>The B site players hold close angles with utility to delay any rush and prepare to trade kills.</li>
+                <li>The remaining two players hold A site, ready to rotate quickly if needed.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B stacks can completely shut down a T-side B rush, especially with the added support from mid.</p>
+        
+            <h5>Double AWP Setup</h5>
+            <p><strong>Objective:</strong> Use AWPs to control long-range engagements and deny the T-side key areas.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>One AWP player holds A long, peeking from car or corner to pick off any Ts trying to take long control.</li>
+                <li>The second AWP holds mid or B, focusing on picking any T-side players trying to cross or push mid.</li>
+                <li>The remaining players hold A short and B site, using utility to support the AWPers and deny map control.</li>
+                <li>Rotate quickly based on where the AWPs spot the T-side.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Double AWP setups can be incredibly powerful on Dust 2, where long-range sightlines dominate. It allows you to control key areas of the map and force the T-side into difficult engagements.</p>
+        </div>
+        
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Big Honkers Team Strategies</p>
+        <p>Version 1.0 – Initial Draft (8/29/2024)</p>
+    </footer>
+
+    <script src="../js/index.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

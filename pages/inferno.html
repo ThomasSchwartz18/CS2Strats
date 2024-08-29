@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inferno Strategies - Counter-Strike 2</title>
+    <link rel="stylesheet" href="../css/index.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Strategies</a>
+                <div class="dropdown-content">
+                    <a href="ancient.html">Ancient</a>
+                    <a href="anubis.html">Anubis</a>
+                    <a href="dust2.html">Dust 2</a>
+                    <a href="inferno.html">Inferno</a>
+                    <a href="mirage.html">Mirage</a>
+                    <a href="nuke.html">Nuke</a>
+                    <a href="vertigo.html">Vertigo</a>
+                    <a href="utility-usage.html">Utility Usage</a>
+                    <a href="practice-drills.html">Practice Drills</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Inferno Section -->
+    <section id="inferno">
+        <h2>Inferno Strategies</h2>
+        <div class="dust2-menu">
+            <button onclick="showSubPage('pistol-round')">Pistol Round</button>
+            <button onclick="showSubPage('anti-eco-round')">Anti-Eco Round</button>
+            <button onclick="showSubPage('force-buy-round')">Force Buy Round</button>
+            <button onclick="showSubPage('full-buy-round')">Full Buy Round</button>
+        </div>
+
+        <!-- Subpages for Inferno Strategies -->
+        <div id="pistol-round" class="dust2-subpage hidden">
+            <h3>Pistol Round</h3>
+            <p>The key to success is communication, coordination, and adapting based on the enemy team's tendencies and your own team's strengths.</p>
+            <button href="#" onclick="showSidePage('pistol-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('pistol-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="anti-eco-round" class="dust2-subpage hidden">
+            <h3>Anti-Eco Round</h3>
+            <p>You’re playing against opponents who likely have little to no armor and weaker weapons, such as pistols or SMGs. 
+                The primary goal is to minimize risk, maintain your economy, and avoid giving away any weapons to the enemy.
+            </p>
+            <button href="#" onclick="showSidePage('anti-eco-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('anti-eco-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="force-buy-round" class="dust2-subpage hidden">
+            <h3>Force Buy Round</h3>
+            <p>Force buys are rounds where your team spends most of its remaining money on weapons, armor, and utility, despite not having enough for a full buy. 
+                The goal in a force buy is to make the most of what you have and try to secure a round win or at least do economic damage to the enemy.
+            </p>
+            <button href="#" onclick="showSidePage('force-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('force-buy-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="full-buy-round" class="dust2-subpage hidden">
+            <h3>Full Buy Round</h3>
+            <p>Full buy rounds are where both teams are fully equipped with rifles, full armor, and utility. 
+                These rounds are often the most tactical and crucial in a match, as both teams have all the resources needed to execute complex strategies.
+            </p>
+            <button href="#" onclick="showSidePage('full-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('full-buy-ct-side')">CT_Side</button>
+        </div>
+
+        <!-- T_Side and CT_Side Pages -->
+        <div id="pistol-t-side" class="dust2-subpage hidden">
+            <h4>Pistol Round - T_Side</h4>
+            
+            <h5>Fast B Rush</h5>
+            <p><strong>Objective:</strong> Overwhelm the B site quickly before the CTs can set up their defenses.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush B through banana, using flashbangs to blind any CTs holding close or on site.</li>
+                <li>Push onto the site, focusing on clearing new box, coffins, and dark. Plant the bomb and set up post-plant positions in banana, site, and new box.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A fast B rush can catch the CTs off guard, especially if they haven’t fully rotated or set up their utility.</p>
+        
+            <h5>A Split (Arch and Short)</h5>
+            <p><strong>Objective:</strong> Split the A site by attacking from both arch (long) and short.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players up mid and two through apartments.</li>
+                <li>The mid players should smoke off arch or library and push through short, while the apartment players clear pit and balcony.</li>
+                <li>Focus on trading kills and taking control of the A site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting the A site from multiple directions divides the CTs’ attention, making it harder for them to hold the site effectively.</p>
+        
+            <h5>Apartment Pop</h5>
+            <p><strong>Objective:</strong> Surprise the CTs by rushing out of apartments onto A site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send all five players into apartments quietly.</li>
+                <li>On a coordinated call, rush out of apartments through balcony, using a flashbang or two to blind any CTs holding pit or site.</li>
+                <li>Focus on overwhelming the pit player and planting the bomb quickly.</li>
+            </ul>
+            <p><strong>Why it works:</strong> The apartment pop can catch CTs off guard, especially if they’re not expecting a fast push from this angle.</p>
+        
+            <h5>Mid Control</h5>
+            <p><strong>Objective:</strong> Take control of mid to force the CTs to rotate or give up map control.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send four players up mid with one holding banana for a potential B split.</li>
+                <li>Use utility to smoke off arch and molotov positions like boiler and cubby.</li>
+                <li>Once mid control is secured, decide whether to split A or rotate to B.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling mid forces the CTs to react, either by rotating or giving up key positions.</p>
+        </div>
+
+        <div id="pistol-ct-side" class="dust2-subpage hidden">
+            <h4>Pistol Round - CT_Side</h4>
+        
+            <h5>Standard 3-1-1 Setup</h5>
+            <p><strong>Objective:</strong> Maintain control of all map areas with a balanced defense.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play three players on A (one holding long, one short, one pit), one mid, and one on B.</li>
+                <li>The A players focus on delaying any push while the B player holds banana with utility to slow down a rush.</li>
+                <li>The mid player should assist B or A as needed, depending on where the Ts are attacking.</li>
+            </ul>
+            <p><strong>Why it works:</strong> This setup provides solid coverage and allows for quick rotations based on T-side movements.</p>
+        
+            <h5>Aggressive Banana Control</h5>
+            <p><strong>Objective:</strong> Take control of banana early to deny the Ts access to B.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two or three players to banana with utility (HE grenades, molotovs, flashes) to take control of the area.</li>
+                <li>One player holds close while the other falls back to site or coffins after securing banana control.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Aggressive banana control can deny the Ts easy access to B and force them to commit more resources if they want to contest it.</p>
+        
+            <h5>A Stack</h5>
+            <p><strong>Objective:</strong> Anticipate an A push and reinforce the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack four players on A (one long, one short, one pit, one apps) with one player on B.</li>
+                <li>The A players should use utility to delay any push and hold strong positions.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A stacks are effective when you expect the Ts to favor the A site, allowing you to overwhelm them with superior numbers.</p>
+        
+            <h5>B Stack</h5>
+            <p><strong>Objective:</strong> Anticipate a B rush and reinforce the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on B (one banana, one site, one coffins) with two players holding A.</li>
+                <li>Use utility to delay any rush and hold close angles where pistols excel.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B stacks can shut down a T-side B rush, especially if the Ts are not expecting a heavy defense.</p>
+        
+            <h5>Aggressive Mid Control</h5>
+            <p><strong>Objective:</strong> Take control of mid early to prevent the Ts from executing their strategy.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to push mid with utility to take control, while one holds boiler or apartments.</li>
+                <li>Use smokes and flashes to blind the Ts and take control of mid.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Aggressive mid control can catch the Ts off guard and deny them an important part of the map.</p>
+        </div>
+        
+        <div id="anti-eco-t-side" class="dust2-subpage hidden">
+            <h4>Anti-Eco Round - T_Side</h4>
+            
+            <h5>Group and Push Together (A or B)</h5>
+            <p><strong>Objective:</strong> Use superior firepower to overwhelm a bombsite.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li><strong>B Push:</strong> All five players group up and push banana together, using utility to clear angles and force the CTs back. Once the site is secured, plant the bomb and hold post-plant positions.</li>
+                <li><strong>A Push:</strong> Similarly, all five players push up mid and split A through short and long, using flashbangs to blind any CTs holding close.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Grouping up reduces the chances of being picked off individually and allows for effective trading.</p>
+        
+            <h5>Slow Play with Map Control</h5>
+            <p><strong>Objective:</strong> Take control of key areas slowly to avoid ambushes.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to banana, one mid, and two to apps.</li>
+                <li>Carefully clear out common stack spots using utility, such as molotovs for cubby and pit.</li>
+                <li>Once you’ve gathered information on the CT setup, execute onto the weaker site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Slow, methodical play helps avoid walking into eco traps and allows you to react based on the CT setup.</p>
+        
+            <h5>Mid Control</h5>
+            <p><strong>Objective:</strong> Control mid to cut off rotations and split towards a bombsite.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Take control of mid with three players, while two players hold banana or apps.</li>
+                <li>Once mid control is secured, split towards the weaker site, either through arch to B or short to A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling mid on Inferno gives you options to execute onto either site while cutting off CT rotations.</p>
+        
+            <h5>Fake B, Hit A</h5>
+            <p><strong>Objective:</strong> Draw CT rotations away from A and execute onto A.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to make noise at banana with utility, while three players hold mid.</li>
+                <li>After selling the fake, the B players fall back and the team pushes A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A well-executed fake can draw defenders away from the actual target, making it easier to secure the site.</p>
+        
+            <h5>Anti-Stack Play</h5>
+            <p><strong>Objective:</strong> Avoid potential CT stacks and maintain a strong economy.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Spread out across the map and play cautiously.</li>
+                <li>Use utility to clear common stack spots and probe for information.</li>
+                <li>If a stack is detected, rotate to the other site or play for picks.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Avoiding a stack minimizes the risk of losing multiple players to a pistol eco and ensures a safer round.</p>
+        </div>
+
+        <div id="anti-eco-ct-side" class="dust2-subpage hidden">     
+            <h4>Anti-Eco Round - CT_Side</h4>
+        
+            <h5>Standard 3-1-1 Setup</h5>
+            <p><strong>Objective:</strong> Maintain control of the map while minimizing risk.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play three players on A, one mid, and one on B.</li>
+                <li>Hold angles from a distance where rifles and SMGs can engage pistols at a safe range.</li>
+                <li>Use utility to delay pushes and gather information.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A standard setup gives you good coverage while avoiding over-extending into potential pistol pushes.</p>
+        
+            <h5>Aggressive Banana Control</h5>
+            <p><strong>Objective:</strong> Take control of banana to deny the Ts easy access to B.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to banana with utility to control the area.</li>
+                <li>One player holds close while the other falls back to site after securing control.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Aggressive banana control can deny the Ts easy access to B and force them to commit more resources if they want to contest it.</p>
+        
+            <h5>B Stack with Mid Control</h5>
+            <p><strong>Objective:</strong> Anticipate a B push and reinforce the site while maintaining mid control.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on B (one banana, one site, one coffins) with two on A.</li>
+                <li>Use utility to delay any push and hold strong angles where rifles can shine.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B stacks can completely shut down a T-side rush, especially with mid control cutting off rotations.</p>
+        
+            <h5>A Stack</h5>
+            <p><strong>Objective:</strong> Anticipate an A hit and reinforce the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack four players on A (one pit, one short, one long, one apps) with one player on B.</li>
+                <li>Use smokes to block vision and flashbangs to blind any Ts pushing A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> If the Ts commit to A, your stack can overwhelm them with superior firepower and numbers.</p>
+        
+            <h5>Push for Early Information</h5>
+            <p><strong>Objective:</strong> Gain early map control and gather information about the T setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Push two players into banana or mid to gather early information.</li>
+                <li>If you encounter resistance, fall back and adjust your defense accordingly.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Gaining early information allows you to adapt your defense and potentially catch the Ts off guard.</p>
+        </div>
+        
+        <div id="force-buy-t-side" class="dust2-subpage hidden">
+            <h4>Force Buy Round - T_Side</h4>
+            
+            <h5>B Rush with Tech-9s/MAC-10s</h5>
+            <p><strong>Objective:</strong> Use close-range weapons to overwhelm the B site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush banana with Tech-9s, MAC-10s, or shotguns.</li>
+                <li>Use flashbangs to blind any CTs holding banana or site and push aggressively.</li>
+                <li>Once you secure the site, smoke off CT and coffins, and plant the bomb.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B site on Inferno has tight corners, making it ideal for close-range weapons in a fast rush.</p>
+        
+            <h5>Apts Pop</h5>
+            <p><strong>Objective:</strong> Rush apartments and take control of the A site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols (Deagles, P250s) and some utility (smokes, flashes).</li>
+                <li>Send four players into apartments with one holding mid for any pushes.</li>
+                <li>On a coordinated call, rush out of apartments through balcony, using a flashbang or two to blind any CTs holding pit or site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A quick pop out of apartments can overwhelm the A site defenders, especially if they’re not expecting a fast push.</p>
+        
+            <h5>Mid to B Split</h5>
+            <p><strong>Objective:</strong> Split the B site from two directions, overwhelming the defenders.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to banana and three players to mid.</li>
+                <li>Smoke off CT and flash through mid to take control.</li>
+                <li>The mid players push through arch to B, while the banana players execute onto the site simultaneously.</li>
+            </ul>
+            <p><strong>Why it works:</strong> The split attack divides the attention of the CTs and can overwhelm the B defenders.</p>
+        
+            <h5>Mid Control with a Lurk</h5>
+            <p><strong>Objective:</strong> Control mid and create an opening for a site hit.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols or SMGs and send three players to take mid control, while one player lurks at B and the other at A.</li>
+                <li>Use utility to smoke off key areas like arch and molotov common positions.</li>
+                <li>After taking mid control, the lurkers can apply pressure to the sites, making it easier to decide where to execute.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Mid control gives you options to hit either site and forces the CTs to spread out, making it easier to find openings.</p>
+        
+            <h5>Fake B, Hit A</h5>
+            <p><strong>Objective:</strong> Draw CTs away from A and hit it with force.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players with SMGs or pistols to banana to make noise and throw utility.</li>
+                <li>The remaining three players wait near mid and apartments.</li>
+                <li>After the fake, regroup and hit A, taking advantage of any rotations the CTs might have made.</li>
+            </ul>
+            <p><strong>Why it works:</strong> The fake can cause the CTs to over-rotate, leaving A more vulnerable to a force buy push.</p>
+        </div>
+        
+        <div id="force-buy-ct-side" class="dust2-subpage hidden">
+            <h4>Force Buy Round - CT_Side</h4>
+            
+            <h5>Aggressive Banana Push</h5>
+            <p><strong>Objective:</strong> Gain control of banana and potentially get early picks.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols or SMGs and send two or three players to push banana aggressively.</li>
+                <li>Use flashes to blind any Ts holding banana or top mid.</li>
+                <li>After securing banana control, either fall back to site or continue to apply pressure.</li>
+            </ul>
+            <p><strong>Why it works:</strong> An aggressive banana push can catch the Ts off guard and deny them control of a critical area.</p>
+        
+            <h5>Mid Control</h5>
+            <p><strong>Objective:</strong> Take control of mid early and deny the Ts access.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols or SMGs and send two players to mid with utility to take control.</li>
+                <li>One player holds long while the other watches short or boiler.</li>
+                <li>The remaining players hold B and A passively.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Mid control on Inferno is crucial and can prevent the Ts from executing their strategies effectively.</p>
+        
+            <h5>B Stack</h5>
+            <p><strong>Objective:</strong> Anticipate a B rush and reinforce the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three or four players on B with pistols and utility.</li>
+                <li>Play close angles on banana and site.</li>
+                <li>Use smokes and flashbangs to delay the push and engage the Ts at close range.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B rushes are common in force buys, and stacking the site with close-range weapons can shut down the T-side's push.</p>
+        
+            <h5>A Stack</h5>
+            <p><strong>Objective:</strong> Anticipate an A push and overwhelm the Ts with numbers.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three or four players on A site, with two holding apartments and the others in pit or short.</li>
+                <li>Use utility to block vision and flashbangs to blind any Ts pushing A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> If the Ts commit to A, your stack can overwhelm them with superior numbers and close-range weapons.</p>
+        
+            <h5>Early Information Push</h5>
+            <p><strong>Objective:</strong> Gain early map control and gather information about the T setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Push two players into banana or mid to gather early information.</li>
+                <li>If you encounter resistance, fall back and adjust your defense accordingly.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Gaining early information allows you to adapt your defense and potentially catch the Ts off guard.</p>
+        </div>
+        
+        <div id="full-buy-t-side" class="dust2-subpage hidden">
+            <h4>Full Buy Round - T_Side Strategies</h4>
+            
+            <h5>Default Spread</h5>
+            <p><strong>Objective:</strong> Gain map control, gather information, and adapt based on the CT setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to banana, one to mid, and two to apartments.</li>
+                <li>The banana players should take control using utility, while the mid player looks for aggression and the apartments players clear out any CTs holding positions.</li>
+                <li>After gathering information, decide whether to execute on A, B, or mid, depending on where the CTs are weakest.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A default spread allows you to control key areas of the map while being flexible enough to react to the CT’s movements.</p>
+        
+            <h5>Mid to B Split</h5>
+            <p><strong>Objective:</strong> Split the B site from two directions, overwhelming the defenders.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Start with two players at banana and three players taking mid control.</li>
+                <li>Smoke off CT and use flashes to push through arch or long.</li>
+                <li>The mid players push through to B, while the banana players execute onto the site simultaneously.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting B divides the attention of the CTs, making it harder for them to defend against a coordinated push.</p>
+        
+            <h5>Apts Control into A Split</h5>
+            <p><strong>Objective:</strong> Take control of apartments and split the A site with players coming from short.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to apartments and three to mid.</li>
+                <li>The apartments players use utility (smokes, flashes) to take control of apartments and force CTs back.</li>
+                <li>The mid players take control and push through short to split onto A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting the A site from apartments and short forces the CTs to defend from multiple angles, making it difficult for them to hold the site.</p>
+        
+            <h5>B Execute</h5>
+            <p><strong>Objective:</strong> Overwhelm the B site with a coordinated execute.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players set up for a B execute, using smokes, flashes, and molotovs to clear out key positions.</li>
+                <li>Smoke off CT and coffins, and use molotovs to flush out any CTs hiding in common spots.</li>
+                <li>Push onto the site and plant the bomb.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A well-executed B hit with proper utility can overwhelm the B defenders, especially if they’re not expecting a fast-paced attack.</p>
+        
+            <h5>Fake A, Hit B</h5>
+            <p><strong>Objective:</strong> Draw CTs away from B and hit it with force.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players to apartments and short to make noise and throw utility, simulating an A hit.</li>
+                <li>The other two players wait near banana.</li>
+                <li>After the fake, the A players fall back, and the entire team hits B.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A fake can cause the CTs to over-rotate, leaving B under-defended.</p>
+        </div>
+        
+        <div id="full-buy-ct-side" class="dust2-subpage hidden">
+            <h4>Full Buy Round - CT_Side Strategies</h4>
+            
+            <h5>Standard 3-1-1 Setup</h5>
+            <p><strong>Objective:</strong> Maintain balanced control of the map with the ability to rotate quickly.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play three players on A, one mid, and one on B.</li>
+                <li>The A players should control short, long, and pit, while the mid player controls rotations and assists A or B as needed, and the B player holds banana.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A standard setup allows for good map control and the ability to rotate quickly based on where the T-side decides to push.</p>
+        
+            <h5>Aggressive Banana Control</h5>
+            <p><strong>Objective:</strong> Take control of banana early to deny the T-side access to key areas.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to aggressively control banana, with one holding mid and two holding A.</li>
+                <li>Use smokes and flashes to block vision and engage the Ts in banana.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling banana on Inferno is crucial, as it denies the Ts access to critical parts of the map and forces them into more predictable paths.</p>
+        
+            <h5>A Site Control</h5>
+            <p><strong>Objective:</strong> Take control of apartments and short early to deny the T-side access to the A site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to control apartments and one player to control short.</li>
+                <li>Use utility (smokes, molotovs) to block key areas like boiler, pit, and balcony.</li>
+                <li>The remaining players hold mid and B passively, ready to rotate if needed.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling apartments and short gives you a strong defensive position and denies the T-side a crucial entry point to the A site.</p>
+        
+            <h5>B Stack with Banana Control</h5>
+            <p><strong>Objective:</strong> Anticipate a B push and reinforce the site while maintaining banana control.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play three players on B (one banana, one site, one coffins) and two on A.</li>
+                <li>Use utility to delay any push and hold close angles on B site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B stacks can completely shut down a T-side B rush, especially with banana control cutting off rotations.</p>
+        
+            <h5>Double AWP Setup</h5>
+            <p><strong>Objective:</strong> Use AWPs to control long-range engagements and deny the T-side key areas.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>One AWP player holds mid, peeking from arch or short to pick off any Ts trying to take control.</li>
+                <li>The second AWP holds banana or B site, focusing on picking any T-side players trying to push banana or B site.</li>
+                <li>The remaining players hold A site and B site, using utility to support the AWPers and deny map control.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Double AWP setups can be incredibly powerful on Inferno, where long-range sightlines dominate, allowing you to control key areas of the map and force the T-side into difficult engagements.</p>
+        </div>
+        
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Big Honkers Team Strategies</p>
+        <p>Version 1.0 – Initial Draft (8/29/2024)</p>
+    </footer>
+
+    <script src="../js/index.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

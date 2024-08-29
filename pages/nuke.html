@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuke Strategies - Counter-Strike 2</title>
+    <link rel="stylesheet" href="../css/index.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Strategies</a>
+                <div class="dropdown-content">
+                    <a href="ancient.html">Ancient</a>
+                    <a href="anubis.html">Anubis</a>
+                    <a href="dust2.html">Dust 2</a>
+                    <a href="inferno.html">Inferno</a>
+                    <a href="mirage.html">Mirage</a>
+                    <a href="nuke.html">Nuke</a>
+                    <a href="vertigo.html">Vertigo</a>
+                    <a href="utility-usage.html">Utility Usage</a>
+                    <a href="practice-drills.html">Practice Drills</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Nuke Section -->
+    <section id="nuke">
+        <h2>Nuke Strategies</h2>
+        <div class="dust2-menu">
+            <button onclick="showSubPage('pistol-round')">Pistol Round</button>
+            <button onclick="showSubPage('anti-eco-round')">Anti-Eco Round</button>
+            <button onclick="showSubPage('force-buy-round')">Force Buy Round</button>
+            <button onclick="showSubPage('full-buy-round')">Full Buy Round</button>
+        </div>
+
+        <!-- Subpages for Nuke Strategies -->
+        <div id="pistol-round" class="dust2-subpage hidden">
+            <h3>Pistol Round</h3>
+            <p>The key to success is communication, coordination, and adapting based on the enemy team's tendencies and your own team's strengths.</p>
+            <button href="#" onclick="showSidePage('pistol-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('pistol-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="anti-eco-round" class="dust2-subpage hidden">
+            <h3>Anti-Eco Round</h3>
+            <p>You’re playing against opponents who likely have little to no armor and weaker weapons, such as pistols or SMGs. The primary goal is to minimize risk, maintain your economy, and avoid giving away any weapons to the enemy.</p>
+            <button href="#" onclick="showSidePage('anti-eco-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('anti-eco-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="force-buy-round" class="dust2-subpage hidden">
+            <h3>Force Buy Round</h3>
+            <p>Force buys are rounds where your team spends most of its remaining money on weapons, armor, and utility, despite not having enough for a full buy. The goal in a force buy is to make the most of what you have and try to secure a round win or at least do economic damage to the enemy.</p>
+            <button href="#" onclick="showSidePage('force-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('force-buy-ct-side')">CT_Side</button>
+        </div>
+
+        <div id="full-buy-round" class="dust2-subpage hidden">
+            <h3>Full Buy Round</h3>
+            <p>Full buy rounds are where both teams are fully equipped with rifles, full armor, and utility. These rounds are often the most tactical and crucial in a match, as both teams have all the resources needed to execute complex strategies.</p>
+            <button href="#" onclick="showSidePage('full-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('full-buy-ct-side')">CT_Side</button>
+        </div>
+
+        <!-- T_Side and CT_Side Pages -->
+        <div id="pistol-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('pistol-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('pistol-ct-side')">CT_Side</button>
+            <h4>Pistol Round - T_Side</h4>
+            
+            <h5>Upper Rush (A Site)</h5>
+            <p><strong>Objective:</strong> Overwhelm the A site with speed and numbers.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush out of squeaky door and hut into A site.</li>
+                <li>Use flashbangs to blind any CTs holding close or on site.</li>
+                <li>Push onto the site, plant the bomb, and set up post-plant positions in hut, squeaky, and site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A fast upper rush can catch the CTs off guard, especially if they are spread thin or not expecting an aggressive push.</p>
+
+            <h5>Ramp Push</h5>
+            <p><strong>Objective:</strong> Take control of ramp to open up B site or force rotations.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send all five players towards ramp.</li>
+                <li>Use flashes to blind any CTs holding ramp and push aggressively.</li>
+                <li>Once ramp control is secured, decide whether to push into B site or rotate back to upper.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Taking control of ramp can force the CTs to rotate and weaken their defenses on other parts of the map.</p>
+
+            <h5>Outside Control</h5>
+            <p><strong>Objective:</strong> Gain control of outside to split onto lower (B) or upper (A) site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players outside with two holding lobby.</li>
+                <li>Use smokes to block off garage and secret, and flashes to clear any CTs holding close.</li>
+                <li>Once outside control is secured, split through secret to B or back to A through heaven.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Outside control on Nuke forces the CTs to spread out and can lead to easy picks or site control.</p>
+
+            <h5>Squeaky Fake, Ramp Hit</h5>
+            <p><strong>Objective:</strong> Fake an upper hit to draw rotations, then hit ramp.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to make noise and throw utility towards A site (squeaky and hut).</li>
+                <li>The remaining three players quietly move towards ramp.</li>
+                <li>After selling the fake, the team pushes ramp and executes onto B site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A well-executed fake can cause the CTs to rotate to A, leaving ramp and B site vulnerable.</p>
+        </div>
+
+        <div id="pistol-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('pistol-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('pistol-ct-side')">CT_Side</button>
+            <h4>Pistol Round - CT_Side</h4>
+        
+            <h5>Standard 2-1-2 Setup</h5>
+            <p><strong>Objective:</strong> Cover all areas of the map with a balanced defense.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play two players on A (one hut, one rafters), one outside, and two on B (one ramp, one secret).</li>
+                <li>The A players delay the push with utility, the outside player contests outside control, and the B players are ready to defend or rotate.</li>
+            </ul>
+            <p><strong>Why it works:</strong> This setup provides good coverage across the map and allows for quick rotations based on T-side movements.</p>
+        
+            <h5>Aggressive Outside Control</h5>
+            <p><strong>Objective:</strong> Deny the T-side easy access to outside.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to aggressively contest outside, with one holding garage and the other pushing towards secret or main.</li>
+                <li>One player holds A site, and two players hold ramp and B passively.</li>
+                <li>Use smokes and flashes to block off key angles and take control of outside early.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling outside denies the Ts a critical area of the map and forces them to either commit more resources or rotate.</p>
+        
+            <h5>A Stack</h5>
+            <p><strong>Objective:</strong> Anticipate an A push and reinforce the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on A (one hut, one squeaky, one rafters) with one outside and one ramp.</li>
+                <li>The A players use utility to delay any push and hold strong defensive positions.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A stack can overwhelm the Ts if they commit to an A push, allowing your team to trade favorably and potentially win the round.</p>
+        
+            <h5>Ramp Control</h5>
+            <p><strong>Objective:</strong> Deny the T-side control of ramp and limit their options.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play two players on ramp, with one holding passive and the other holding aggressively close.</li>
+                <li>The remaining players hold A, outside, and secret, ready to rotate if necessary.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Denying ramp control limits the Ts' ability to execute onto B and forces them to consider other options.</p>
+        
+            <h5>Outside to Secret Push</h5>
+            <p><strong>Objective:</strong> Gain early control of secret to anticipate a B split.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send one player outside with smokes and flashes to contest the area, and another player to push down secret.</li>
+                <li>The secret player can then assist in holding B or flank the Ts if they try to take ramp.</li>
+            </ul>
+            <p><strong>Why it works:</strong> This setup allows you to gain early information and control over key areas, helping you anticipate the T-side’s next move.</p>
+        </div>
+        
+        <div id="anti-eco-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('anti-eco-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('anti-eco-ct-side')">CT_Side</button>
+            <h4>Anti-Eco Round - T_Side</h4>
+            
+            <h5>Group and Push Together (A or B)</h5>
+            <p><strong>Objective:</strong> Use superior firepower to overwhelm a bombsite.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li><strong>A Push:</strong> All five players push A together through squeaky and hut, using utility to clear angles and force the CTs back. Once the site is secured, plant the bomb and hold post-plant positions.</li>
+                <li><strong>B Push:</strong> Similarly, all five players push ramp together, using flashbangs to blind any close CTs and quickly take control of the site. Smoke off key positions and molotov common hiding spots.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Grouping up reduces the chances of being picked off individually and allows for effective trading.</p>
+        
+            <h5>Slow Play with Map Control</h5>
+            <p><strong>Objective:</strong> Take control of key areas slowly to avoid ambushes.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players outside, one lobby, and two towards ramp.</li>
+                <li>Carefully clear out common stack spots using utility.</li>
+                <li>Once you’ve gathered information on the CT setup, execute onto the weaker site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Slow, methodical play helps avoid walking into eco traps and allows you to react based on the CT setup.</p>
+        
+            <h5>Outside Control</h5>
+            <p><strong>Objective:</strong> Control outside to cut off rotations and split towards a bombsite.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Take control of outside with three players, while two players hold lobby.</li>
+                <li>Once outside control is secured, split towards the weaker site, either through secret to B or heaven to A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling outside gives you options to execute onto either site while cutting off CT rotations.</p>
+        
+            <h5>Fake A, Hit B</h5>
+            <p><strong>Objective:</strong> Draw CT rotations away from B and execute onto B.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to make noise at A with utility, while three players hold ramp.</li>
+                <li>After selling the fake, regroup and hit B before the CTs can rotate back.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A well-executed fake can draw defenders away from the actual target, making it easier to secure the site.</p>
+        
+            <h5>Anti-Stack Play</h5>
+            <p><strong>Objective:</strong> Avoid potential CT stacks and maintain a strong economy.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Spread out across the map and play cautiously.</li>
+                <li>Use utility to clear common stack spots and probe for information.</li>
+                <li>If a stack is detected, rotate to the other site or play for picks.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Avoiding a stack minimizes the risk of losing multiple players to a pistol eco and ensures a safer round.</p>
+        </div>
+
+        <div id="anti-eco-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('anti-eco-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('anti-eco-ct-side')">CT_Side</button>     
+            <h4>Anti-Eco Round - CT_Side</h4>
+        
+            <h5>Standard 2-1-2 Setup</h5>
+            <p><strong>Objective:</strong> Maintain control of the map while minimizing risk.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play two players on A, one outside, and two on B.</li>
+                <li>Hold angles from a distance where rifles and SMGs can engage pistols at a safe range.</li>
+                <li>Use utility to delay pushes and gather information.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A standard setup gives you good coverage while avoiding over-extending into potential pistol pushes.</p>
+        
+            <h5>Aggressive Outside Control</h5>
+            <p><strong>Objective:</strong> Take control of outside to deny T-side access.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to aggressively control outside, with one holding secret and one garage.</li>
+                <li>One player holds A, and two players hold B passively.</li>
+                <li>Use smokes and flashes to block vision and take control of outside, denying the Ts access to key areas.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Outside control on Nuke is crucial and can prevent the Ts from executing effective splits.</p>
+        
+            <h5>B Stack with Ramp Control</h5>
+            <p><strong>Objective:</strong> Anticipate a B push and reinforce the site while maintaining ramp control.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on B (one ramp, one site, one secret) with two on A.</li>
+                <li>Use utility to delay any push and hold strong angles where rifles can shine.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B stacks can completely shut down a T-side rush, especially with ramp control cutting off rotations.</p>
+        
+            <h5>A Stack</h5>
+            <p><strong>Objective:</strong> Anticipate an A hit and reinforce the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three players on A (one hut, one squeaky, one rafters) with one outside and one ramp.</li>
+                <li>Use smokes to block vision and flashbangs to blind any Ts pushing A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> If the Ts commit to A, your stack can overwhelm them with superior firepower and numbers.</p>
+        
+            <h5>Push for Early Information</h5>
+            <p><strong>Objective:</strong> Gain early map control and gather information about the T setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Push two players into outside or ramp to gather early information.</li>
+                <li>If you encounter resistance, fall back and adjust your defense accordingly.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Gaining early information allows you to adapt your defense and potentially catch the Ts off guard.</p>
+        </div>
+        
+        <div id="force-buy-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('force-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('force-buy-ct-side')">CT_Side</button>
+            <h4>Force Buy Round - T_Side</h4>
+            
+            <h5>Ramp Rush with Tech-9s/MAC-10s</h5>
+            <p><strong>Objective:</strong> Use close-range weapons to overwhelm the B site through ramp.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players rush ramp with Tech-9s, MAC-10s, or shotguns.</li>
+                <li>Use flashbangs to blind any CTs holding ramp or site and push aggressively.</li>
+                <li>Once you secure the site, smoke off control room and plant the bomb.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Ramp on Nuke has tight corners, making it ideal for close-range weapons in a fast rush.</p>
+        
+            <h5>Upper Execute with Utility</h5>
+            <p><strong>Objective:</strong> Take control of the A site using pistols and utility.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols (Deagles, P250s) and some utility (smokes, flashes).</li>
+                <li>Send two players through squeaky and three through hut.</li>
+                <li>Use smokes to cover heaven and flashes to blind any CTs holding site or close angles.</li>
+                <li>Push onto the site, focusing on trading kills and getting the bomb down.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Properly timed utility can neutralize the CTs' defense and allow your team to take control of the A site.</p>
+        
+            <h5>Outside to B Split</h5>
+            <p><strong>Objective:</strong> Split the B site from outside and ramp.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players to take outside control and two players to ramp.</li>
+                <li>The outside players should smoke off garage and push through secret to B, while the ramp players execute onto the site.</li>
+                <li>Focus on trading kills and securing control of B.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting the B site from multiple directions divides the CTs' attention, making it harder for them to defend effectively.</p>
+        
+            <h5>Outside Control with a Lurk</h5>
+            <p><strong>Objective:</strong> Control outside and create an opening for a site hit.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols or SMGs and send three players to take outside control, while one player lurks at ramp and the other in lobby.</li>
+                <li>Use utility to smoke off key areas like garage and heaven.</li>
+                <li>After taking outside control, the lurkers can apply pressure to the sites, making it easier to decide where to execute.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Outside control gives you options to hit either site and forces the CTs to spread out, making it easier to find openings.</p>
+        
+            <h5>Fake A, Hit Ramp</h5>
+            <p><strong>Objective:</strong> Draw CTs away from ramp and hit it with force.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players with SMGs or pistols to A site to make noise and throw utility.</li>
+                <li>The remaining three players wait near lobby.</li>
+                <li>After the fake, regroup and hit ramp, taking advantage of any rotations the CTs might have made.</li>
+            </ul>
+            <p><strong>Why it works:</strong> The fake can cause the CTs to over-rotate, leaving ramp and B site more vulnerable to a force buy push.</p>
+        </div>
+        
+        <div id="force-buy-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('force-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('force-buy-ct-side')">CT_Side</button>
+            <h4>Force Buy Round - CT_Side</h4>
+            
+            <h5>Aggressive Ramp Push</h5>
+            <p><strong>Objective:</strong> Gain control of ramp and potentially get early picks.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols or SMGs and send two or three players to push ramp aggressively.</li>
+                <li>Use flashes to blind any Ts holding ramp or lobby.</li>
+                <li>After securing ramp control, either fall back to safer positions or continue to flank and disrupt the T-side's plans.</li>
+            </ul>
+            <p><strong>Why it works:</strong> An aggressive ramp push can catch the Ts off guard and deny them control of a critical area.</p>
+        
+            <h5>Outside Control</h5>
+            <p><strong>Objective:</strong> Take control of outside early and deny the Ts access.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Buy pistols or SMGs and send two players to outside with utility to take control.</li>
+                <li>One player holds close outside, while the other supports from secret or garage.</li>
+                <li>The remaining players hold A and ramp passively.</li>
+            </ul>
+            <p><strong>Why it works:</strong> An aggressive push on outside can catch the Ts off guard and deny them control of a key area.</p>
+        
+            <h5>B Stack with Ramp Control</h5>
+            <p><strong>Objective:</strong> Anticipate a B rush and reinforce the site.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three or four players on B with pistols and utility.</li>
+                <li>Play close angles on ramp and site.</li>
+                <li>Use smokes and flashbangs to delay the push and engage the Ts at close range.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B rushes are common in force buys, and stacking the site with close-range weapons can shut down the T-side's push.</p>
+        
+            <h5>A Stack</h5>
+            <p><strong>Objective:</strong> Anticipate an A push and overwhelm the Ts with numbers.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Stack three or four players on A site, with two holding hut and the others in squeaky or rafters.</li>
+                <li>Use utility to block vision and flashbangs to blind any Ts pushing A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> If the Ts commit to A, your stack can overwhelm them with superior numbers and close-range weapons.</p>
+        
+            <h5>Early Information Push</h5>
+            <p><strong>Objective:</strong> Gain early map control and gather information about the T setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Push two players into outside or ramp to gather early information.</li>
+                <li>If you encounter resistance, fall back and adjust your defense accordingly.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Gaining early information allows you to adapt your defense and potentially catch the Ts off guard.</p>
+        </div>
+        
+        <div id="full-buy-t-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('full-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('full-buy-ct-side')">CT_Side</button>
+            <h4>Full Buy Round - T_Side Strategies</h4>
+            
+            <h5>Default Spread</h5>
+            <p><strong>Objective:</strong> Gain map control, gather information, and adapt based on the CT setup.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players outside, one to lobby, and two to ramp.</li>
+                <li>The outside players should carefully take control using utility, while the lobby player holds for any pushes and the ramp players clear out any CTs holding close.</li>
+                <li>After gathering information, decide whether to execute on A, B, or outside, depending on where the CTs are weakest.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A default spread allows you to control key areas of the map while being flexible enough to react to the CT’s movements.</p>
+        
+            <h5>Outside to B Split</h5>
+            <p><strong>Objective:</strong> Split the B site from outside and ramp.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players to take outside control and two players to ramp.</li>
+                <li>The outside players should smoke off garage and push through secret to B, while the ramp players execute onto the site.</li>
+                <li>Focus on trading kills and securing control of B.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Splitting the B site from multiple directions divides the CTs' attention, making it harder for them to defend effectively.</p>
+        
+            <h5>Upper Execute</h5>
+            <p><strong>Objective:</strong> Overwhelm the A site with a coordinated execute.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>All five players set up for an upper execute, using smokes, flashes, and molotovs to clear out key positions.</li>
+                <li>Smoke off heaven and use molotovs to flush out any CTs hiding in hut or behind site.</li>
+                <li>Push onto the site and plant the bomb.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A well-executed upper hit with proper utility can overwhelm the A defenders, especially if they’re not expecting a fast-paced attack.</p>
+        
+            <h5>Fake B, Hit A</h5>
+            <p><strong>Objective:</strong> Draw CTs away from A and hit it with force.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players to ramp to make noise and throw utility, simulating a B hit.</li>
+                <li>The other two players wait near squeaky or hut.</li>
+                <li>After the fake, the ramp players fall back, and the entire team hits A.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A fake can cause the CTs to over-rotate, leaving A under-defended.</p>
+        
+            <h5>Outside Control into Split A</h5>
+            <p><strong>Objective:</strong> Take outside control and split A site from outside and lobby.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send three players to outside and two to lobby.</li>
+                <li>The outside players should take control and push through heaven or mini to A, while the lobby players execute onto the site from hut and squeaky.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A split from outside and lobby divides the CTs' attention, making it harder for them to effectively defend the A site.</p>
+        </div>
+        
+        <div id="full-buy-ct-side" class="dust2-subpage hidden">
+            <button href="#" onclick="showSidePage('full-buy-t-side')">T_Side</button>
+            <button href="#" onclick="showSidePage('full-buy-ct-side')">CT_Side</button>
+            <h4>Full Buy Round - CT_Side Strategies</h4>
+            
+            <h5>Standard 2-1-2 Setup</h5>
+            <p><strong>Objective:</strong> Maintain balanced control of the map with the ability to rotate quickly.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play two players on A, one outside, and two on B.</li>
+                <li>The A players should control hut, squeaky, and rafters, the outside player controls rotations and assists A or B as needed, and the B players hold ramp and site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> A standard setup allows for good map control and the ability to rotate quickly based on where the T-side decides to push.</p>
+        
+            <h5>Aggressive Outside Control</h5>
+            <p><strong>Objective:</strong> Take control of outside early to deny the T-side access to key areas.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to aggressively control outside, with one holding secret and one garage.</li>
+                <li>Use smokes and flashes to block vision and engage the Ts in outside.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling outside on Nuke is crucial, as it denies the Ts access to critical parts of the map and forces them into more predictable paths.</p>
+        
+            <h5>A Site Control</h5>
+            <p><strong>Objective:</strong> Take control of A site early to deny the T-side access.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Send two players to control hut and one player to control squeaky.</li>
+                <li>Use utility (smokes, molotovs) to block key areas like heaven and hut.</li>
+                <li>The remaining players hold outside and ramp passively, ready to rotate if needed.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Controlling A site gives you a strong defensive position and denies the T-side a crucial entry point to the A site.</p>
+        
+            <h5>B Stack with Ramp Control</h5>
+            <p><strong>Objective:</strong> Anticipate a B push and reinforce the site while maintaining ramp control.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>Play three players on B (one ramp, one site, one secret) and two on A.</li>
+                <li>Use utility to delay any push and hold close angles on B site.</li>
+            </ul>
+            <p><strong>Why it works:</strong> B stacks can completely shut down a T-side B rush, especially with ramp control cutting off rotations.</p>
+        
+            <h5>Double AWP Setup</h5>
+            <p><strong>Objective:</strong> Use AWPs to control long-range engagements and deny the T-side key areas.</p>
+            <p><strong>Execution:</strong></p>
+            <ul>
+                <li>One AWP player holds outside, peeking from garage or secret to pick off any Ts trying to take control.</li>
+                <li>The second AWP holds ramp or A site, focusing on picking any T-side players trying to push into these areas.</li>
+                <li>The remaining players hold A site and B site, using utility to support the AWPers and deny map control.</li>
+            </ul>
+            <p><strong>Why it works:</strong> Double AWP setups can be incredibly powerful on Nuke, where long-range sightlines dominate, allowing you to control key areas of the map and force the T-side into difficult engagements.</p>
+        </div>
+        
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Big Honkers Team Strategies</p>
+        <p>Version 1.0 – Initial Draft (8/29/2024)</p>
+    </footer>
+
+    <script src="../js/index.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
